@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update && upgrade
-sudo apt-get install apache2 apache2-utils samba -y
+sudo apt-get install apache2 apache2-utils -y
 sudo apt-get install openssh-server -y
 sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql -y
 sudo mysql_install_db
@@ -33,7 +33,7 @@ create_dir() {
 ##
 setup_samba() {
 
-    #sudo apt-get install samba
+    sudo apt-get install samba -y
 
     SAMBA_CFG=/etc/samba/smb.conf
 
@@ -102,7 +102,7 @@ install_sharonypark() {
 # create a new user
 create_new_user
 
-# calls setup_samba function
+# setup samba
 setup_samba
 
 # download the repo
