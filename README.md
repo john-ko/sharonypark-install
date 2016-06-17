@@ -11,10 +11,10 @@
 7. find local ip, `ifconfig` example 192.168.1.x
 
 ## SETUP
-- windows
--- open explorer
--- right click network places
--- map network drive
--- check `connect using different credentials`
--- folder: `\\192.168.1.x\share`
--- username: sharonypark, password: password
+## windows
+- open explorer
+- right click network places
+- map network drive
+- check `connect using different credentials`
+- folder: `\\192.168.1.x\share`
+- username: sharonypark, password: password
