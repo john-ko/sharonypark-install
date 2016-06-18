@@ -32,3 +32,6 @@
 - cmd + k
 - `smb://192.168.1.x/share`
 - username: `sharonypark`, password: `password`
+
+## TODO
+- use vagrant?
