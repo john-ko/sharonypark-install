@@ -2,13 +2,21 @@
 
 ## INSTALL
 
-1. get virtualbox
-2. download and install ubuntu 14.04 lts server
-3. virtualbox settings > network > bridged
-4. `git clone https://github.com/john-ko/sharonypark-install.git`
-5. `cd sharonypark-install`
-6. `sudo ./install.sh`
-7. find local ip, `ifconfig` example 192.168.1.x
+### virtualbox setup
+1. install virtualbox
+2. click new
+3. Type: `Linux` Version: `Ubuntu 64`
+4. 1-2 gb ram, and 8gb hd
+5. settings > network > Attach to: `Bridged adapter`
+6. get `ubuntu 14.04 lts server` iso and install
+
+### ubuntu setup
+1. once booted up
+2. `git clone https://github.com/john-ko/sharonypark-install.git`
+3. `cd sharonypark-install`
+4. `sudo chmod +x instll.sh`
+5. `sudo ./install.sh`
+6. find local ip, `ifconfig` example 192.168.1.x
 
 ## SETUP
 ## windows
