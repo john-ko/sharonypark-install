@@ -19,10 +19,16 @@
 6. find local ip, `ifconfig` example 192.168.1.x
 
 ## SETUP
-## windows
+### windows
 - open explorer
 - right click network places
 - map network drive
 - check `connect using different credentials`
 - folder: `\\192.168.1.x\share`
-- username: sharonypark, password: password
+- username: `sharonypark`, password: `password`
+
+### mac
+- cmd + space `finder`
+- cmd + k
+- `smb://192.168.1.x/share`
+- username: `sharonypark`, password: `password`
